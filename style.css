@@ -44,3 +44,7 @@ body {
     text-align: right;
 }
 
+.wave {
+    padding: 0px;
+    overflow: hidden;
+}
