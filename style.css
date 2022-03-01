@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+body {
+    background: linear-gradient(180deg, rgba(2,209,251,1) 0%, rgba(0,29,36,1) 50%);
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+      background: rgb(1, 4, 184);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background: rgb(184, 1, 1);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+      background: rgb(24, 85, 0);
+    }
+}
 
 
 header, footer {
@@ -26,9 +47,7 @@ h2 {
     letter-spacing: .2rem;
 }
 
-body {
-    background: linear-gradient(180deg, rgba(2,209,251,1) 0%, rgba(0,29,36,1) 50%);
-}
+
 
 .main {
     background-color: white;
